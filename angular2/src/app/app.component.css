@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: gray;
+}
+.nav-link {
+  margin: 0px;
+  color: white;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background-color: #4867BD;
+  transition: all 500ms;
+}
+.nav-link:hover {
+  margin: 0px;
+  color: black;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background-color: #354D91;
+}
+
+.nav{
+  margin-top:2vh;
+  margin-left: 4vw;
+  margin-right: 1vw;
+}
+.col-sm-3{
+  text-align: right;
+}
+
+i{
+  font-size:30px;
+}
+
+footer{
+  bottom:0px;
+  text-align:center;
+}
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+
+.correct{
+  background-color: green;
+}
+.incorrect{
+  background-color: red;
+}
